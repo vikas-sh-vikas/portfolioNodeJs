@@ -1,0 +1,55 @@
+GET http://localhost:9000/card
+
+### create post request
+POST http://localhost:9000/card
+Content-Type: application/json
+
+{
+    "src":"scr",
+    "title":"Header",
+    "para" : "change"
+}
+
+### get card by id
+GET  http://localhost:9000/card/64fed7be93e93d4317571bdd
+
+### update card by id
+PATCH http://localhost:9000/card/64fed7be93e93d4317571bdd
+Content-Type: application/json
+
+{
+    "src":"scr",
+    "title":"Header",
+    "para":"cahnge3"
+}
+
+### delete card by id
+DELETE http://localhost:9000/card/64fed7be93e93d4317571bdd
+
+### get card by id
+GET  http://localhost:9000/64febc987abc24170f8424db2
+
+### Get Card Button request
+GET http://localhost:9000/cardbutton
+
+### Get Company Detail request
+GET http://localhost:9000/companyDetail
+
+### Get Footer Day request
+GET http://localhost:9000/foorteDay
+
+### Get Footer Link request
+GET http://localhost:9000/footerLink
+
+### Get Header Data request
+GET http://localhost:9000/headerData
+
+### Get Icon Data request
+GET http://localhost:9000/iconData
+
+### Get Left Card 1 request
+GET http://localhost:9000/leftSideCardA
+### Get Left Card 2 request
+GET http://localhost:9000/leftSideCardB
+### Get Left Card 3 request
+GET http://localhost:9000/leftSideCardC
